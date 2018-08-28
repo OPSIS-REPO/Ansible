@@ -1,4 +1,5 @@
 ---
+tasks:
 - name: Ensure user bob is present
   win_user:
     name: billy
