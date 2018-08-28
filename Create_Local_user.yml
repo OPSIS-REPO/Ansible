@@ -1,0 +1,11 @@
+---
+- hosts: win
+  tasks:
+  - name: Ensure user bob is present
+    win_user:
+      name: billy
+      password: BillyP4ssw0rd
+      state: present
+      groups:
+        - Users
+        
