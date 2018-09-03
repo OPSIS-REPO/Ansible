@@ -11,6 +11,6 @@
   - name: Install pkg chrome
     win_chocolatey:
       name: googlechrome
-      state: present
+      state: absent
 
 
