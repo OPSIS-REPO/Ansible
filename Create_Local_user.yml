@@ -11,6 +11,6 @@
   - name: Install pkg git
     win_chocolatey:
       name: git
-      state: present
+      state: absent
 
 
