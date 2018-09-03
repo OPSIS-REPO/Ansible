@@ -10,7 +10,7 @@
         - Users
   - name: Install pkg git
     win_chocolatey:
-      name: chrome
+      name: googlechrome
       state: present
 
 
