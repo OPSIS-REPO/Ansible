@@ -8,7 +8,7 @@
       state: present
       groups:
         - Users
-  - name: Install pkg git
+  - name: Install pkg chrome
     win_chocolatey:
       name: googlechrome
       state: present
